@@ -1,0 +1,2 @@
+exemplos/origem.txt:usa a linha de comando. Isso pode parecer intimidador no início, mas oferece:
+exemplos/teste1.txt:history - Mostra histórico de comandos

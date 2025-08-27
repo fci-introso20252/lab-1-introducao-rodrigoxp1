@@ -25,19 +25,19 @@ Para elaborar um relatório completo e que realmente agregue valor ao seu aprend
 **1. Qual foi o comando mais útil que você aprendeu? Por quê?**
 
 ```
-[Sua resposta aqui]
+ls, por conta de poder ver as listas de docs criada.
 ```
 
 **2. Qual comando você achou mais difícil de entender? Por quê?**
 
 ```
-[Sua resposta aqui]
+Não tive dificuldade em nenhum.
 ```
 
 **3. Você conseguiu completar todos os exercícios? Se não, quais dificuldades encontrou?**
 
 ```
-[Sua resposta aqui]
+Sim.
 ```
 
 ---

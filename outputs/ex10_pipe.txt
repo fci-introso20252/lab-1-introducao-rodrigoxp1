@@ -1,0 +1,5 @@
+total 56
+drwxrwxrwx+ 7 codespace root      4096 Aug 27 22:50 .
+drwxr-xrwx+ 5 codespace root      4096 Aug 27 22:29 ..
+drwxrwxrwx+ 8 codespace root      4096 Aug 27 22:29 .git
+-rw-rw-rw-  1 codespace root      7663 Aug 27 22:29 EXERCICIOS.md

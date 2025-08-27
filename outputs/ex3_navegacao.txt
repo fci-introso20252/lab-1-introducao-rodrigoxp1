@@ -1,0 +1,3 @@
+/workspaces/lab-1-introducao-rodrigoxp1/exemplos
+/workspaces/lab-1-introducao-rodrigoxp1
+/workspaces/lab-1-introducao-rodrigoxp1
