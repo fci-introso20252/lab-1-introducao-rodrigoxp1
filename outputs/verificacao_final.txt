@@ -1,0 +1,13 @@
+meu_diretorio/
+├── arquivo_renomeado.txt
+├── estrutura.txt
+├── multiplas.txt
+├── primeiro.txt
+├── subdir1
+│   ├── arquivo2.txt
+│   ├── origem.txt
+│   ├── teste1.txt
+│   └── teste2.txt
+└── teste1.txt
+
+2 directories, 9 files

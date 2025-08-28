@@ -1,0 +1,34 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+       1  0.0  0.0   1136   256 ?        Ss   21:25   0:00 /sbin/docker-init -- /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+codespa+       7  0.0  0.0   2800  1536 ?        S    21:25   0:00 /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+root         205  0.0  0.0  12016  2836 ?        Ss   21:25   0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+root         334  0.0  0.9 1968036 78196 ?       Sl   21:25   0:00 dockerd --dns 168.63.129.16
+root         511  0.0  0.5 1801440 47524 ?       Ssl  21:25   0:00 containerd --config /var/run/docker/containerd/containerd.toml
+codespa+    1672  0.0  0.0   2800  1792 ?        Ss   21:33   0:00 /bin/sh
+root        1712  0.0  0.0   2800  1536 ?        Ss   21:33   0:00 /bin/sh
+codespa+    2285  0.0  0.0   2808  1920 ?        Ss   21:33   0:00 sh /home/codespace/.vscode-remote/bin/6f17636121051a53c88d3e605c491d22af2ba755/bin/code-server --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-6f17636121051a53c88d3e605c491d22af2ba755 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --install-builtin-extension GitHub.vscode-pull-request-github --install-builtin-extension github.github-vscode-theme --install-builtin-extension github.codespaces --do-not-sync --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+codespa+    2294  0.9  1.6 11853508 134604 ?     Sl   21:33   0:04 /vscode/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/node /vscode/bin/linux-x64/6f17636121051a53c88d3e605c491d22af2ba755/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-6f17636121051a53c88d3e605c491d22af2ba755 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --install-builtin-extension GitHub.vscode-pull-request-github --install-builtin-extension github.github-vscode-theme --install-builtin-extension github.codespaces --do-not-sync --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+docker-init-+-dockerd-+-containerd---7*[{containerd}]
+            |         `-9*[{dockerd}]
+            |-sh---sleep
+            `-sshd
+top - 21:43:13 up 21 min,  0 user,  load average: 0.08, 0.44, 0.68
+Tasks:  19 total,   1 running,  18 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  4.8 us,  4.8 sy,  0.0 ni, 90.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7944.7 total,    149.9 free,   1768.4 used,   6404.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6176.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 codespa+  20   0    1136    256    256 S   0.0   0.0   0:00.05 docker-+
+      7 codespa+  20   0    2800   1536   1536 S   0.0   0.0   0:00.23 sh
+    205 root      20   0   12016   2836   1792 S   0.0   0.0   0:00.00 sshd
+    334 root      20   0 1968036  78196  55168 S   0.0   1.0   0:00.32 dockerd
+    511 root      20   0 1801440  47524  32640 S   0.0   0.6   0:00.47 contain+
+   1672 codespa+  20   0    2800   1792   1792 S   0.0   0.0   0:00.01 sh
+   1712 root      20   0    2800   1536   1536 S   0.0   0.0   0:00.00 sh
+   2285 codespa+  20   0    2808   1920   1792 S   0.0   0.0   0:00.00 sh
+   2294 codespa+  20   0   11.3g 135116  52224 S   0.0   1.7   0:05.00 node
+   2433 codespa+  20   0   42.1g 357856  57984 S   0.0   4.4   0:14.28 node
+   2470 codespa+  20   0 1261772  58948  47360 S   0.0   0.7   0:00.19 node
+   2881 codespa+  20   0 1139756  71980  47744 S   0.0   0.9   0:01.62 node
+   3340 codespa+  20   0 1183924  65820  47488 S   0.0   0.8   0:00.24 node

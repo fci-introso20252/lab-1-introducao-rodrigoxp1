@@ -49,21 +49,23 @@ Sim.
 **1. Liste 3 diferenças principais entre usar Windows e Linux que você notou:**
 
 ```
-1. [Primeira diferença]
-2. [Segunda diferença]
-3. [Terceira diferença]
+1. Windows tem suporte para diversos tipos de jogos, mais facilidade ainda com a gamepass, ja o linux não.
+
+2. Windows normalmente tem que se comprar uma licença para poder utilizar deste sistema (ou pegar uma chave aleatoria no google), ja o linux é totalmente gratuito e expansivo para o usuário.
+
+3. As formas de comando no terminal, eu achei muito mais pratico e facil de decorar os comandos utilizados para tarefas feitas pelo terminal do sistema Linux, ja no Windows é um pouco mais complicado. (na minha opinião)
 ```
 
 **2. Para tarefas do dia a dia, qual sistema você prefere? Por quê?**
 
 ```
-[Sua resposta aqui]
+Atualmente Windows, passei minha vida inteira utilizando o sistema Windows, então por costume, prefiro o Windows mesmo.
 ```
 
 **3. Em que situações o Linux seria mais vantajoso que o Windows?**
 
 ```
-[Sua resposta aqui]
+Em qualquer tipo de criação pessoal ou profissional, o Linux tem total portas abertas para isso, ja o Windows é totalmente limitado.
 ```
 
 ---
@@ -75,21 +77,23 @@ Sim.
 **1. Por que é importante para um profissional de Sistemas de Informação conhecer Linux?**
 
 ```
-[Sua resposta aqui]
+Como disse na pergunta anterior, o sistema Linux disponibiliza muitas oportunidades de criação por ter um sistema aberto e feito pela comunidade global.
 ```
 
 **2. Como o conhecimento de comandos Linux pode ajudar na gestão de TI de uma empresa?**
 
 ```
-[Sua resposta aqui]
+Posso criar meu próprio sistema, específico para necessidade da empresa, sem depender de algum servidor externo pago ou algo do tipo.
 ```
 
 **3. Cite 3 aplicações práticas do Linux no ambiente empresarial:**
 
 ```
-1. [Primeira aplicação]
-2. [Segunda aplicação]
-3. [Terceira aplicação]
+1. Servidores, é utilizado em servidores web (Apache, Nginx), de banco de dados (MySQL, PostgreSQL) por ser estavel e seguro.
+
+2. Infraestrutura de Rede, Empresas utilizam Linux em firewalls, roteadores, proxies e sistemas de monitoramento de rede (como Zabbix e Nagios), garantindo segurança e controle do tráfego.
+
+3. Segurança da informação, muitas distribuições especializadas (como kali Linux e Parrot OS) são utilizadas em testes de invasões, auditorias e análise forense digital.
 ```
 
 ---
@@ -101,24 +105,24 @@ Sim.
 **1. Quantos arquivos você criou no diretório `outputs/`?**
 
 ```
-Total de arquivos: _____
+Total de arquivos: 23
 ```
 
 **2. Qual foi o tamanho total do diretório `meu_diretorio` que você criou?**
 
 ```bash
 # Use o comando: du -sh meu_diretorio/
-Tamanho: _____
+Tamanho: 36K
 ```
 
 **3. Liste os 5 comandos que você mais usou durante o laboratório:**
 
 ```
-1. _____
-2. _____
-3. _____
-4. _____
-5. _____
+1. ls
+2. pwd
+3. outputs
+4. cat
+5. grep
 ```
 
 ---
@@ -130,13 +134,13 @@ Tamanho: _____
 **1. Você já tinha usado Git antes? Se sim, em que contexto?**
 
 ```
-[Sua resposta aqui]
+Bem pouco, comecei a utilizar neste semestre na aula de Web Mobile
 ```
 
 **2. Qual a importância do versionamento de código para empresas?**
 
 ```
-[Sua resposta aqui - mínimo 3 linhas]
+Imagino que seja para saber sua base de conhecimentos sobre tais linguagens.
 ```
 
 ---
@@ -148,13 +152,13 @@ Tamanho: _____
 **1. Que tipo de tarefas você poderia automatizar usando comandos Linux?**
 
 ```
-[Sua resposta aqui - cite pelo menos 2 exemplos]
+Gerenciamento de Arquivos e pastas e testes de Redes e internet.
 ```
 
 **2. Você consideraria usar Linux como sistema operacional principal? Por quê?**
 
 ```
-[Sua resposta aqui]
+Atualmente não, talvez futuramente dependendo do meu contexto de trabalho.
 ```
 
 ---
@@ -164,13 +168,13 @@ Tamanho: _____
 **O que você achou mais interessante no laboratório?**
 
 ```
-[Sua resposta aqui]
+Gostei da metodologia de ensino, ja utilizando os comandos na prática de forma quase independente, sem muitas aulas apenas de teoria.
 ```
 
 **O que poderia ser melhorado para próximos labs?**
 
 ```
-[Sua resposta aqui]
+Não tenho em mente no momento.
 ```
 
 ---
@@ -179,10 +183,10 @@ Tamanho: _____
 
 Antes de enviar, verifique:
 
-- [ ] Preenchi todas as seções do relatório
-- [ ] Completei todos os exercícios em EXERCICIOS.md
-- [ ] Salvei todos os outputs na pasta outputs/
-- [ ] Criei o diretório meu_diretorio com os arquivos solicitados
-- [ ] Fiz git add, commit e push
+- [X] Preenchi todas as seções do relatório
+- [X] Completei todos os exercícios em EXERCICIOS.md
+- [X] Salvei todos os outputs na pasta outputs/
+- [X] Criei o diretório meu_diretorio com os arquivos solicitados
+- [X] Fiz git add, commit e push
 
 ---

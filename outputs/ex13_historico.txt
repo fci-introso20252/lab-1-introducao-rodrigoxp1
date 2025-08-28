@@ -1,0 +1,11 @@
+    1  uname -a > outputs/ex11_sistema.txt
+    2  cat /etc/os-release >> outputs/ex11_sistema.txt
+    3  df -h >> outu
+    4  df -h >> outputs/ex11_sistema.txt
+    5  free -h >> outputs/ex11_sistema.txt
+    6  ps aux | head -10 > outputs/ex12_processos.txt
+    7  pstree | head -20 >> outputs/ex12_processos.txt
+    8  top -b -n 1 | head -20 >> outputs/ex12_processos.txt
+    9  clear
+   10  history | tail -20 > outputs/ex13_historico.txt
+   11  history | grep "mkdir" >> outputs/ex13_historico.txt
